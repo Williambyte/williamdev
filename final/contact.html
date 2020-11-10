@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./contact.css">
-    <title>Document</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <section>
         <div class="container">
-            <form action="">
+            <hl class="header" style="font-size: 3rem;">Contact us</hl>
+            <form action="https://formspree.io/f/mwkwqejo" method="POST" id="my-form">
                 <div class="form-group">
                     <label for="fullname"> Name</label>
                     <input type="text" id="full-name" name="full-name">
@@ -29,6 +30,8 @@
                 <Button type="submit">Submit</Button>
             </form>
         </div>
+        <div id="status"></div>
     </section>
+    <script src="./main.js"></script>
 </body>
 </html>
